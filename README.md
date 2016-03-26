@@ -8,24 +8,22 @@ With PyPI:
 pip install urbandictionary
 ```
 
-Without PyPI, fork/download then:
+Without PyPI, fork/download, then:
 ```
 python setup.py install
 ```
 
 ## Usage
 
-### UrbanDef
+### UrbanDefinition
 
-This module defines **UrbanDef**, an object to represent each Urban Dictionary definition.
-**UrbanDef** has the following accessible attributes:
+This module defines **UrbanDefinition**, an object to represent each Urban Dictionary definition.
+**UrbanDefinition** has the following accessible attributes:
 * **word**: the word being defined,
 * **definition**: the word's definition,
 * **example**: usage example,
 * **upvotes**: number of upvotes on Urban Dictionary,
 * **downvotes**: number of downvotes on Urban Dictionary
-
-**UrbanDef** objects have a comparison function based solely on the number of upvotes/downvotes.
 
 ### Examples
 
@@ -51,10 +49,21 @@ rand = ud.random()
 
 Read definitions:
 ```python
-for d in def:
-	print d.definition
+for d in defs:
+	print(d.definition)
 
 >	It means that you are going to go over ...
+>	code for two people going to each others ...
 > 	<other Netflix and Chill definitions> ...
+```
+
+UrbanDefinition string representation:
+```python
+for d in defs:
+	print(d)
+
+>	Netflix and Chill: It means that you are going to go over to your par... (21776, 7750)
+>	netflix and chill: code for two people going to each others houses an... (8056, 2622)
+>	<word>: <definition trimmed to 50 characters> (<upvotes>, <downvotes>)
 ```
 
