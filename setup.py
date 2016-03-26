@@ -2,7 +2,7 @@ import multiprocessing
 from setuptools import setup
 
 setup(name='urbandictionary',
-    version='1.0',
+    version='1.1',
     py_modules=['urbandictionary'],
     author='Bocong',
     author_email='bocongyin@gmail.com',
@@ -17,5 +17,5 @@ setup(name='urbandictionary',
             "Programming Language :: Python :: 2",
             "Programming Language :: Python :: 3",
         ],
-    keywords='urban dictionary api',
+    keywords='urban dictionary python api wrapper',
     )
