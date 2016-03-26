@@ -27,6 +27,8 @@ This module defines an **UrbanDef**, an object to represent each Urban Dictionar
 
 **UrbanDef** objects have a comparison function based solely on the number of upvotes/downvotes.
 
+### Examples
+
 Import the module:
 ```python
 import urbandictionary as ud
