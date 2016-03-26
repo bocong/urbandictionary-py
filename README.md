@@ -17,7 +17,7 @@ python setup.py install
 
 ### UrbanDef
 
-This module defines an **UrbanDef**, an object to represent each Urban Dictionary definition.
+This module defines **UrbanDef**, an object to represent each Urban Dictionary definition.
 **UrbanDef** has the following accessible attributes:
 * **word**: the word being defined,
 * **definition**: the word's definition,
