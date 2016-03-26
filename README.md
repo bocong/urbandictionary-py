@@ -1,7 +1,21 @@
 # urbandictionary-py
 Simple Python wrapper for Urban Dictionary API.
 
-## UrbanDef
+## Installation
+
+With PyPI:
+```
+pip install urbandictionary
+```
+
+Without PyPI, fork/download then:
+```
+python setup.py install
+```
+
+## Usage
+
+### UrbanDef
 
 This module defines an **UrbanDef**, an object to represent each Urban Dictionary definition.
 **UrbanDef** has the following accessible attributes:
@@ -13,8 +27,6 @@ This module defines an **UrbanDef**, an object to represent each Urban Dictionar
 
 **UrbanDef** objects have a comparison function based solely on the number of upvotes/downvotes.
 
-## Usage
-
 Import the module:
 ```python
 import urbandictionary as ud
@@ -25,19 +37,19 @@ Lookup by word:
 ```python
 defs = ud.define('netflix and chill')
 
->	[<List of UrbanDef objects>]
+>	[List of UrbanDef objects]
 ```
 
 Lookup random words:
 ```python
 rand = ud.random()
 
->	[<List of UrbanDef objects>]
+>	[List of UrbanDef objects]
 ```
 
 Read definitions:
 ```python
-for d in defs:
+for d in def:
 	print d.definition
 
 >	It means that you are going to go over ...
