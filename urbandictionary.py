@@ -7,9 +7,9 @@ else:
     from urllib.request import urlopen
     from urllib.parse import quote as urlquote
 
-UD_DEFID_URL = 'http://api.urbandictionary.com/v0/define?defid='
-UD_DEFINE_URL = 'http://api.urbandictionary.com/v0/define?term='
-UD_RANDOM_URL = 'http://api.urbandictionary.com/v0/random'
+UD_DEFID_URL = 'https://api.urbandictionary.com/v0/define?defid='
+UD_DEFINE_URL = 'https://api.urbandictionary.com/v0/define?term='
+UD_RANDOM_URL = 'https://api.urbandictionary.com/v0/random'
 
 class UrbanDefinition(object):
     def __init__(self, word, definition, example, upvotes, downvotes):
