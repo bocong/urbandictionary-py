@@ -1,4 +1,5 @@
 # urbandictionary-py
+!### This Project is Forked from Bocong only to fix bugs with current Pypi Release ###!
 Simple Python wrapper for Urban Dictionary API.
 
 ## Installation

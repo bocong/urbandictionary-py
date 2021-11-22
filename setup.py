@@ -1,14 +1,14 @@
 import multiprocessing
 from setuptools import setup
 
-setup(name='urbandictionary',
-    version='1.1',
+setup(name='urbandictionary[1.0]',
+    version='1.0',
     py_modules=['urbandictionary'],
-    author='Bocong',
-    author_email='bocongyin@gmail.com',
+    author='Endlessz',
+    author_email='lckrep@protonmail.com',
     license='MIT',
     description='Simple Python wrapper for Urban Dictionary API.',
-    url='https://github.com/bocong/urbandictionary-py',
+    url='https://github.com/Endlesszombiez/urbandictionary-py',
     classifiers=[
             "Development Status :: 4 - Beta",
             "Intended Audience :: End Users/Desktop",
